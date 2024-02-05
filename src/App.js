@@ -84,7 +84,7 @@ const App = () => {
   const fetchResponseFromLLM = async (text) => {
     try {
       const response = await fetch(
-        `https://c3-python-nostream.onrender.com/api/chat`,
+        `https://quranicanswers.ngrok.dev/api/chat`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
