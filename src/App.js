@@ -47,6 +47,7 @@ const App = () => {
           .trim()
           .toLowerCase();
         console.log("*************" + transcript);
+        toggleRecording();
         if (transcript.includes("c3")) {
           toggleRecording(); // Start the main speech recognition process
           console.log("************** Start the main speech recognition process");
