@@ -46,7 +46,7 @@ const App = () => {
         const transcript = event.results[event.results.length - 1][0].transcript
           .trim()
           .toLowerCase();
-        console.log(transcript);
+        console.log("*************" + transcript);
         if (transcript.includes("c3")) {
           toggleRecording(); // Start the main speech recognition process
           console.log("************** Start the main speech recognition process");
