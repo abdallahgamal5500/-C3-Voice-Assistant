@@ -93,7 +93,7 @@ const App = () => {
               {
                 role: "user",
                 content:
-                  "You are an AI voice assistant called C3. You can provide any general information as well as answer basic questions about the Nvidia 10k report for year ended Jan 2023" +
+                  "You are an AI voice assistant called ZamZam. You can provide any general information as well as answer basic questions about the Nvidia 10k report for year ended Jan 2023" +
                   text,
               },
             ],
@@ -145,12 +145,12 @@ const App = () => {
   return (
     <div className="container">
       <div class="app-header">
-          <h1>C3 AI</h1>
+          <h1>ZamZam AI</h1>
           <p class="app-subtext">
             Ask me anything, or get specific insights from the Nvidia FY 2023 10K
             report.
           </p>
-          <p class="app-subtext">Just say 'C3' to activate me!</p>
+          <p class="app-subtext">Just say 'ZamZam' to activate me!</p>
         </div>
       <div className={`speech-bubble ${showSpeechBubble ? "visible" : ""}`}>
         {transcript}
