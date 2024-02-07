@@ -47,7 +47,7 @@ const App = () => {
           .trim()
           .toLowerCase();
         console.log(transcript);
-        if (transcript.includes("zamzam")) {
+        if (transcript.includes("السلام عليكم")) {
           toggleRecording(); // Start the main speech recognition process
         }
       };
