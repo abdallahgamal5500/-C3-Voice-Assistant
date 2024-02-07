@@ -47,7 +47,7 @@ const App = () => {
           .trim()
           .toLowerCase();
         console.log(transcript);
-        if (transcript.includes("c3")) {
+        if (transcript.includes("zamzam")) {
           toggleRecording(); // Start the main speech recognition process
         }
       };
