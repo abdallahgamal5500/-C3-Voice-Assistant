@@ -93,7 +93,7 @@ const App = () => {
               {
                 role: "user",
                 content:
-                  "You are an AI voice assistant called ZamZam. You can provide any general information as well as answer basic questions about the Nvidia 10k report for year ended Jan 2023" +
+                  "انت نموذج ذكاء اصطناعى تسمى زمزم. يمكنك تقديم أي معلومات عامة." +
                   text,
               },
             ],
