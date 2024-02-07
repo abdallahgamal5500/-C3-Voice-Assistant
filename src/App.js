@@ -47,9 +47,13 @@ const App = () => {
           .trim()
           .toLowerCase();
         console.log(transcript);
-        if (transcript.includes("السلام عليكم")) {
+        if (transcript.includes("zamzam")) {
           toggleRecording(); // Start the main speech recognition process
+          console.log("************** Start the main speech recognition process");
+        } else {
+          console.log("************** can't Start the main speech recognition process");
         }
+        
       };
 
       wakeWordRecognitionRef.current.start();
